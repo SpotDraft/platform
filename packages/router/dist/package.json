@@ -1,0 +1,49 @@
+{
+  "name": "@angular-redux/router",
+  "version": "9.0.0",
+  "description": "Keep your Angular 2+ router state in Redux.",
+  "author": "Dag Stuan",
+  "license": "MIT",
+  "homepage": "https://github.com/angular-redux/platform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular-redux/platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular-redux/platform/issues"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "redux",
+    "routing",
+    "router"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular-redux/store": "^9.0.0",
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/router": "^6.0.0",
+    "redux": "^4.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@angular-redux/store": "9.0.0"
+  },
+  "main": "bundles/angular-redux-router.umd.js",
+  "module": "fesm5/angular-redux-router.js",
+  "es2015": "fesm2015/angular-redux-router.js",
+  "esm5": "esm5/angular-redux-router.js",
+  "esm2015": "esm2015/angular-redux-router.js",
+  "fesm5": "fesm5/angular-redux-router.js",
+  "fesm2015": "fesm2015/angular-redux-router.js",
+  "typings": "angular-redux-router.d.ts",
+  "metadata": "angular-redux-router.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "@angular-redux/store",
+  "version": "9.0.0",
+  "description": "Angular bindings for Redux",
+  "author": "William Buchwalter <wbuchwalter@gmail.com> (http://github.com/wbuchwalter)",
+  "license": "MIT",
+  "homepage": "https://github.com/angular-redux/platform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular-redux/platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular-redux/platform/issues"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "redux",
+    "store",
+    "state management"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/core": "^6.0.0",
+    "redux": "^4.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.7",
+    "typedoc": "0.11.1",
+    "typedoc-plugin-sourcefile-url": "1.0.3"
+  },
+  "main": "bundles/angular-redux-store.umd.js",
+  "module": "fesm5/angular-redux-store.js",
+  "es2015": "fesm2015/angular-redux-store.js",
+  "esm5": "esm5/angular-redux-store.js",
+  "esm2015": "esm2015/angular-redux-store.js",
+  "fesm5": "fesm5/angular-redux-store.js",
+  "fesm2015": "fesm2015/angular-redux-store.js",
+  "typings": "angular-redux-store.d.ts",
+  "metadata": "angular-redux-store.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

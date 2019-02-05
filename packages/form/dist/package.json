@@ -1,0 +1,48 @@
+{
+  "name": "@angular-redux/form",
+  "version": "9.0.1",
+  "description": "Build Angular 2+ forms with Redux",
+  "author": "Chris Bond",
+  "license": "MIT",
+  "homepage": "https://github.com/angular-redux/platform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular-redux/platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular-redux/platform/issues"
+  },
+  "keywords": [
+    "angular",
+    "redux",
+    "form",
+    "forms"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular-redux/store": "^9.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/forms": "^6.0.0",
+    "redux": "^4.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "dependencies": {
+    "immutable": "3.8.2",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@angular-redux/store": "9.0.0"
+  },
+  "main": "bundles/angular-redux-form.umd.js",
+  "module": "fesm5/angular-redux-form.js",
+  "es2015": "fesm2015/angular-redux-form.js",
+  "esm5": "esm5/angular-redux-form.js",
+  "esm2015": "esm2015/angular-redux-form.js",
+  "fesm5": "fesm5/angular-redux-form.js",
+  "fesm2015": "fesm2015/angular-redux-form.js",
+  "typings": "angular-redux-form.d.ts",
+  "metadata": "angular-redux-form.metadata.json",
+  "sideEffects": false
+}

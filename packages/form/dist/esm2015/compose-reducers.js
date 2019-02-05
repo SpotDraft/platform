@@ -1,0 +1,8 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @type {?} */
+export const composeReducers = (...reducers) => (s, action) => reducers.reduce((st, reducer) => reducer(st, action), s);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tcG9zZS1yZWR1Y2Vycy5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0Bhbmd1bGFyLXJlZHV4L2Zvcm0vIiwic291cmNlcyI6WyJjb21wb3NlLXJlZHVjZXJzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBRUEsYUFBYSxlQUFlLEdBQUcsQ0FDN0IsR0FBRyxRQUFxQyxFQUNiLEVBQUUsQ0FBQyxDQUFDLENBQU0sRUFBRSxNQUFpQixFQUFFLEVBQUUsQ0FDNUQsUUFBUSxDQUFDLE1BQU0sQ0FBQyxDQUFDLEVBQUUsRUFBRSxPQUFPLEVBQUUsRUFBRSxDQUFDLE9BQU8sQ0FBQyxFQUFFLEVBQUUsTUFBTSxDQUFDLEVBQUUsQ0FBQyxDQUFDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBbnlBY3Rpb24sIFJlZHVjZXIgfSBmcm9tICdyZWR1eCc7XG5cbmV4cG9ydCBjb25zdCBjb21wb3NlUmVkdWNlcnMgPSA8U3RhdGU+KFxuICAuLi5yZWR1Y2VyczogUmVkdWNlcjxTdGF0ZSwgQW55QWN0aW9uPltdXG4pOiBSZWR1Y2VyPFN0YXRlLCBBbnlBY3Rpb24+ID0+IChzOiBhbnksIGFjdGlvbjogQW55QWN0aW9uKSA9PlxuICByZWR1Y2Vycy5yZWR1Y2UoKHN0LCByZWR1Y2VyKSA9PiByZWR1Y2VyKHN0LCBhY3Rpb24pLCBzKTtcbiJdfQ==

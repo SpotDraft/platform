@@ -1,0 +1,31 @@
+import { OnDestroy, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
+import { AsyncValidatorFn, ControlContainer, FormArray, FormGroupDirective, ValidatorFn } from '@angular/forms';
+import { ConnectBase } from '../connect';
+import { FormStore } from '../form-store';
+export declare class ConnectArrayDirective extends ControlContainer implements OnInit, OnDestroy {
+    private parent;
+    private rawValidators;
+    private rawAsyncValidators;
+    private connection;
+    private templateRef;
+    private viewContainerRef;
+    private store;
+    private stateSubscription;
+    private array;
+    private key?;
+    constructor(parent: ControlContainer, rawValidators: any[], rawAsyncValidators: any[], connection: ConnectBase, templateRef: TemplateRef<any>, viewContainerRef: ViewContainerRef, store: FormStore);
+    connectArrayOf: any;
+    ngOnInit(): void;
+    readonly name: string;
+    readonly control: FormArray;
+    readonly formDirective: FormGroupDirective;
+    readonly path: string[];
+    readonly validator: ValidatorFn | null;
+    readonly asyncValidator: AsyncValidatorFn | null;
+    updateValueAndValidity(): void;
+    ngOnDestroy(): void;
+    private resetState(state);
+    private registerInternals(array);
+    private patchDescendantControls(viewRef);
+    private transform(parent, reference);
+}
